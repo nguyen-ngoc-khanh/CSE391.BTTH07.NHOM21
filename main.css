@@ -1,0 +1,23 @@
+.container{
+}
+form{
+    border: solid 1px black;
+    width: 300px;
+    margin: 50px auto;
+
+}
+input[type=text] {
+    padding: 4px 4px;
+    box-sizing: border-box;
+  }
+.row{
+    padding: 5px 0;
+}
+.col{
+    padding: 3px;
+}
+.col-1{
+    float: left;
+    padding-top:6px;
+    padding-left: 15px;
+}
