@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Registration</title>
+    <link rel="stylesheet" href="./assets/main.css" />
+  </head>
+  <body>
+    <div id="container">
+      <form action="">
+        <h1>Registration Form</h1>
+        <div class="row">
+          <div class="col-1">User ID:</div>
+          <div class="col">
+            <input
+              type="text"
+              name="UserID"
+              id="userID"
+              class="inputRegister"
+              required
+            />
+            <span class="statusOfUserID"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">Password:</div>
+          <div class="col">
+            <input
+              type="text"
+              name="Password"
+              id="password"
+              class="inputRegister"
+              required
+            />
+            <span class="statusOfUserPassword"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">Name:</div>
+          <div class="col">
+            <input
+              type="text"
+              name="UserName"
+              id="userName"
+              class="inputRegister"
+              required
+            />
+            <span class="statusOfName"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">Address:</div>
+          <div class="col">
+            <input
+              type="text"
+              name="UserAddress"
+              id="userAddress"
+              class="inputRegister"
+            />
+            <span class="statusOfUserAddress"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">ZIP Code:</div>
+          <div class="col">
+            <input
+              type="text"
+              name="ZipCode"
+              id="zipCode"
+              class="inputRegister"
+              required
+            />
+            <span class="statusOfZIPcode"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">Email:</div>
+          <div class="col">
+            <input
+              type="email"
+              name="UserEmail"
+              id="userEmail"
+              class="inputRegister"
+              required
+            />
+            <span class="statusOfUserEmail"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">Country:</div>
+          <div class="col">
+            <select name="UserCountry" id="userCountry">
+              <option value="">(please select a country)</option>
+              <option value="Việt Name">Việt Nam</option>
+              <option value="China">China</option>
+              <option value="Norway">Norway</option>
+            </select>
+            <span class="statusOfUserCountry"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">Sex:</div>
+          <div class="col">
+            <input
+              type="radio"
+              name="gender"
+              id="userSexMale"
+              class="form-sex"
+              required
+            />
+            <label for="UserSex">Male</label>
+          </div>
+          <div class="col">
+            <input
+              type="radio"
+              name="gender"
+              id="userSexFemale"
+              class="form-sex"
+              required
+            />
+            <label for="UserSex">Female</label>
+          </div>
+          <div class="col">
+              <span class="statusOfGender"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">Language:</div>
+          <div class="col">
+            <input
+              type="checkbox"
+              name="UserLanguage"
+              id="userLanguageEnlish"
+              class="form-language"
+              required
+            />
+            <label for="UserLanguage">English</label>
+          </div>
+          <div class="col">
+            <input
+              type="checkbox"
+              name="UserLanguage"
+              id="userLanguageNonEnglish"
+              class="form-language"
+              required
+            />
+            <label for="UserLanguage">Non English</label>
+          </div>
+          <div class="col">
+              <span class="statusOfLanguage"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button
+              type="submit"
+              name="btnResgister"
+              value="Register"
+              class="form-btn"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
